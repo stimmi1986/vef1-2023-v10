@@ -11,12 +11,12 @@ function App() {
   return (
     <Router>
       <Navbar />
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/games" element={<Games />} />
-          <Route path="/teams" element={<Teams />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/games" element={<Games />} />
+        <Route path="/teams" element={<Teams />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
       <Footer />
     </Router>
   );
